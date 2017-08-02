@@ -47,7 +47,7 @@
                                 <rect key="frame" x="16" y="153" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <connections>
                                     <action selector="displayLyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="jXF-LE-bKm"/>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="Pxf-oh-Rrm"/>
@@ -66,8 +66,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="lyricsTemplate" destination="NgN-VU-2Jn" id="LSj-4S-tvq"/>
-                        <outlet property="nameField" destination="NgN-VU-2Jn" id="RDv-Kb-kt4"/>
+                        <outlet property="lyricsView" destination="JOs-mW-ecR" id="Bic-8r-Ynv"/>
+                        <outlet property="nameField" destination="NgN-VU-2Jn" id="Rtm-rv-Qkg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
